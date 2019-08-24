@@ -8,6 +8,7 @@ import (
 	"os"
 )
 
+// Expects piped input of Jira Markdown, outputs Github Markdown
 func main() {
 
 	str := ""

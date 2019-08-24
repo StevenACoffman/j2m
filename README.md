@@ -1,7 +1,7 @@
 # jira-to-md
 
 ## JIRA to MarkDown text format converter
-Golang tool to convert from JIRA text formatting to GitHub Flavored MarkDown.
+Golang tool to convert from JIRA Markdown text formatting to GitHub Flavored MarkDown.
 
 ## Credits
 This fun toy was heavily inspired by the J2M project by Fokke Zandbergen (http://j2m.fokkezb.nl/). Major credit to Fokke, kylefarris (and other contributors) for establishing the RexExp patterns for this to work. The maintained JavaScript fork I based this on is [here](https://github.com/kylefarris/J2M)
