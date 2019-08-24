@@ -1,3 +1,5 @@
+[![GoDoc](https://godoc.org/github.com/StevenACoffman/j2m?status.svg)](https://godoc.org/github.com/StevenACoffman/j2m)
+
 # jira-to-md
 
 ## JIRA to MarkDown text format converter
