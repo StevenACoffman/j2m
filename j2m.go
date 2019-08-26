@@ -11,6 +11,7 @@ type jiration struct {
 	re   *regexp.Regexp
 	repl interface{}
 }
+
 // JiraToMD takes a string in Jira Markdown, and outputs Github Markdown
 func JiraToMD(str string) string {
 	jirations := []jiration{
