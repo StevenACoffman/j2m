@@ -1,4 +1,5 @@
 [![GoDoc](https://godoc.org/github.com/StevenACoffman/j2m?status.svg)](https://godoc.org/github.com/StevenACoffman/j2m)
+[![GoReportcard](https://goreportcard.com/badge/github.com/StevenACoffman/j2m?status.svg)](https://goreportcard.com/report/github.com/StevenACoffman/j2m)
 
 # jira-to-md
 
@@ -28,7 +29,7 @@ This fun toy was heavily inspired by the J2M project by Fokke Zandbergen (http:/
 * Subscripts
 * Single-paragraph blockquotes
 * Tables
-* Panels 
+* Panels
 
 
 ## How to Use
