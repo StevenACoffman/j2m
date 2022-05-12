@@ -38,11 +38,11 @@ func JiraToMD(str string) string {
 			},
 		},
 		{ // Bold
-			re:   regexp.MustCompile(`\*(\S.*)\*`),
+			re:   regexp.MustCompile(`\*(\S[^*]*)\*`),
 			repl: "**$1**",
 		},
 		{ // Italic
-			re:   regexp.MustCompile(`\_(\S.*)\_`),
+			re:   regexp.MustCompile(`\b\_(\S[^_]*)\_`),
 			repl: "*$1*",
 		},
 		{ // Monospaced text
