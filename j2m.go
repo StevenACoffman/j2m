@@ -82,7 +82,7 @@ func JiraToMD(str string) string {
 			repl: "```",
 		},
 		{ // Un-named Links
-			re:   regexp.MustCompile(`(?U)\[([^|]+)\]`),
+			re:   regexp.MustCompile(`(?U)\[([^|]+?)\]`),
 			repl: "<$1>",
 		},
 		{ // Images
@@ -90,7 +90,7 @@ func JiraToMD(str string) string {
 			repl: "![]($1)",
 		},
 		{ // Named Links
-			re:   regexp.MustCompile(`\[(.+?)\|(.+)\]`),
+			re:   regexp.MustCompile(`\[(.+?)\|(.+?)\]`),
 			repl: "[$1]($2)",
 		},
 		{ // Single Paragraph Blockquote
