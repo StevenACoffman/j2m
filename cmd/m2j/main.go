@@ -1,4 +1,5 @@
 ///usr/bin/env go run "$0" "$@" ; exit "$?"
+
 package main
 
 import (
@@ -8,7 +9,7 @@ import (
 	"os"
 )
 
-// Expects piped input of Jira Markdown, outputs Github Markdown
+// Expects piped input of Github Markdown, outputs Jira Markdown
 func main() {
 
 	str := ""
@@ -24,7 +25,7 @@ func main() {
 		str = string(stdInBytes)
 	}
 
-	str = j2m.JiraToMD(str)
+	str = j2m.MDToJira(str)
 
-	fmt.Printf("%s\n", str)
+	fmt.Print(str)
 }
